@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content
+    section#introSection
+        div Welcome To Prohor's Dance Academy !
+        div.small Dance Dance Dance
+
+            
+             
+    section#MissionSection
+        h3 Our Mission
+        div.card
+            h3 Best Dance Academy
+            div.card-box
+                div.card-img
+                    img(src="/static/img/dnce1.png")
+                div.card-content
+                    p This is the best dance academy of the universe       
+        div.card
+            h3 Best Dance Academy 
+            div.card-box
+                div.card-img
+                    img(src="/static/img/dance2.png")
+                div.card-content
+                    p This is the best dance academy of the universe   
+        div.card
+            h3 Best Dance Academy
+            div.card-box
+                div.card-img
+                    img(src="/static/img/dance3.png")
+                div.card-content
+                    p This is the best dance academy of the universe    
+
+    section#sponserSection
+        h3 Our Sponsers
+        div#sponsers
+            img(src="/static/img/logo2.png", alt="sponsers logo" Class="spImage")  
+            img(src="/static/img/MSlogo.png", alt="sponsers logo" Class="spImage")  
+            img(src="/static/img/apple logo.png", alt="sponsers logo" Class="spImage")  
+      
